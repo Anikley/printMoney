@@ -1,7 +1,7 @@
 # PrintMoney console application
 
 ## Building 
-> dotnet build
+``` dotnet build```
 
 ## Running
-> dotnet run
+``` dotnet run ```
