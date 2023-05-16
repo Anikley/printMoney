@@ -2,16 +2,16 @@ using System;
 
 public class Money
 {
-    static readonly string DOLLAR = "DOLLAR";
-    static readonly string CENT = "CENT";
-    static readonly string NUNDRED = "hundred";
-    static readonly string THOUSAND = "thousand";
-    static readonly string MILLION = "million";
-    static readonly string BILLION = "billion";
-    static readonly int MINVALUE = 0;
-    static readonly int MAXVALUE = 2000000000;
-    private readonly double money = MINVALUE;
-    private string result = string.Empty;
+    const string DOLLAR = "DOLLAR";
+    const string CENT = "CENT";
+    const string NUNDRED = "hundred";
+    const string THOUSAND = "thousand";
+    const string MILLION = "million";
+    const string BILLION = "billion";
+    const int MINVALUE = 0;
+    const int MAXVALUE = 2000000000;
+    private double money = MINVALUE;
+    string result = string.Empty;
     public Money(double moneyNumeric)
     {
         money = moneyNumeric;
