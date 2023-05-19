@@ -7,7 +7,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("MONEY NUMERIC INTO PRINTING FORM");
+        Console.WriteLine("NUMERIC MONEY INTO PRINTING FORM");
         Console.WriteLine("Please, type money value more then 0 and less then 2000000000 (like 1357256.32) --> ");
 
         var printedValue = Console.ReadLine();
