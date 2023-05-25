@@ -20,7 +20,7 @@ public class Money
 
     public override string ToString()
     {
-        if (money == MINVALUE || money > MAXVALUE)
+        if (money <= MINVALUE || money > MAXVALUE)
         {
             throw new Exception("Money can not be printed.\nPlease, type money value more then 0 and less then 2000000000 (like 1357256.32)");
         }
